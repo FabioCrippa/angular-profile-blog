@@ -1,19 +1,11 @@
 <div class="container__big-card">
     <div class="photo__big-card">
-        <img 
-            src="https://picsum.photos/800/600"  
-            alt="Big Card Image"
-        >
+        <img src="{{ photoCover }}" alt="Big Card Image">
     </div>
     <div class="title__big-card">
-        <h2>Big Card Title</h2>
-    </div>
+        <h2>{{ cardTitle }}</h2>
     <div class="description__big-card">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Nam enim ipsam cupiditate! Quas facilis, 
-            dignissimos expedita molestias voluptatem porro 
-            nisi ex et hic nulla ratione, veritatis fuga 
-            explicabo quo veniam.
-        </p>
+        <p>{{ cardDescription }}</p>
+        <p>{{ othersInformations }}</p>
     </div>
 </div>
